@@ -14,7 +14,10 @@
   "bugs": {
     "url": "https://github.com/antfu/case-police/issues"
   },
-  "keywords": ["eslint", "eslint-plugin"],
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -31,12 +34,12 @@
     "eslint": "^9.9.0 || ^10.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "^8.46.4",
+    "@typescript-eslint/utils": "^8.56.1",
     "case-police": "workspace:*",
-    "synckit": "^0.11.11"
+    "synckit": "^0.11.12"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.46.4",
+    "@typescript-eslint/parser": "^8.56.1",
     "eslint-mdx": "^3.6.2",
     "eslint-plugin-case-police": "workspace:*"
   }
