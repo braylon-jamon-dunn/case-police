@@ -42,7 +42,7 @@ export function replaceCore(
     if (containsUTF8(code, from, index))
       return _
 
-    if (!from.match(/[A-Z]/) || !from.match(/[a-z]/))
+    if (!/[A-Z]/.test(from) || !/[a-z]/.test(from))
       return _
     const lower = from.toLowerCase()
     if (ignore.includes(lower))
